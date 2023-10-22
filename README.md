@@ -8,6 +8,7 @@ Installare le dipendenze PHPUnit nel terminale ↓<br>
 ## Per far partire il/i test: ↓
         
 `php vendor/bin/phpunit total-phpunit/tests/ExampleTest.php`
+`php vendor/bin/phpunit total-phpunit/tests/CartTest.php`
 
 ## Alcune opzioni di visualizzazione e/o filtraggio dei `Test`
 -> aggiungendo `--filter` ed il nome della funzione si può testare solo quella all'interno di un file che contiene altri test
