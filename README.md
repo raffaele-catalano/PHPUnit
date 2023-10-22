@@ -7,6 +7,7 @@ Installare le dipendenze PHPUnit nel terminale ↓<br>
 
 ## Per far partire il/i test: ↓
         
+`php vendor/bin/phpunit total-phpunit/tests/`
 `php vendor/bin/phpunit total-phpunit/tests/ExampleTest.php`
 `php vendor/bin/phpunit total-phpunit/tests/CartTest.php`
 
