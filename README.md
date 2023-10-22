@@ -12,16 +12,16 @@ Installare le dipendenze PHPUnit nel terminale ↓<br>
 `php vendor/bin/phpunit total-phpunit/tests/CartTest.php`
 
 ## Alcune opzioni di visualizzazione e/o filtraggio dei `Test`
--> aggiungendo `--filter` ed il nome della funzione si può testare solo quella all'interno di un file che contiene altri test
--> aggiungendo `--colors` -> si avrà una sottolineatura colorata in base al successo o al fallimento del test
--> aggiungendo -> `--testdox` -> si avrà un feedback testuale
-
-
-### Alcuni Esempi:
 <ul>
-  <li>php vendor/bin/phpunit total-phpunit/tests/ExampleTest.php --colors</li>
-  <li>php vendor/bin/phpunit total-phpunit/tests/ExampleTest.php --colors -testdox</li>
-  <li>php vendor/bin/phpunit total-phpunit/tests/ExampleTest.php --filters</li>testProductIsCalculatedCorrectly</li>
-  <li>php vendor/bin/phpunit total-phpunit/tests/ExampleTest.php --filters testProductIsCalculatedCorrectly --colors</li>
-  <li>php vendor/bin/phpunit total-phpunit/tests/ExampleTest.php --filter testProductIsCalculatedCorrectly --colors --testdox</li>
+  <li>aggiungendo `--filter` ed il nome della funzione si può testare solo quella all'interno di un file che contiene altri test</li>
+  <li>aggiungendo `--colors` -> si avrà una sottolineatura colorata in base al successo o al fallimento del test</li>
+  <li>aggiungendo -> `--testdox` -> si avrà un feedback testuale</li>
 </ul>
+
+
+### Alcuni Esempi
+`php vendor/bin/phpunit total-phpunit/tests/ExampleTest.php --colors`  
+`php vendor/bin/phpunit total-phpunit/tests/ExampleTest.php --colors -testdox`  
+`php vendor/bin/phpunit total-phpunit/tests/ExampleTest.php --filter testProductIsCalculatedCorrectly`  
+`php vendor/bin/phpunit total-phpunit/tests/ExampleTest.php --filter testProductIsCalculatedCorrectly --colors`  
+`php vendor/bin/phpunit total-phpunit/tests/ExampleTest.php --filter testProductIsCalculatedCorrectly --colors --testdox`
