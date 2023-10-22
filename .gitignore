@@ -1,0 +1,4 @@
+# Dipendenze
+.vscode
+vendor
+.DS_Store
